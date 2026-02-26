@@ -1,0 +1,5 @@
+print("Bem-vindo a Localiza")
+dias=float(input("Digite o dias de locação:"))
+km=float(input("Digite os Km rodados:"))
+resultado=(dias*60)+(km*0.15)
+print(f"O valor a pagar é: {resultado:.2f}R$")
